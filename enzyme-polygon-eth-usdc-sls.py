@@ -31,6 +31,8 @@ from tradingstrategy.client import Client
 from tradingstrategy.timebucket import TimeBucket
 from tradingstrategy.chain import ChainId
 
+TRADING_STRATEGY_ENGINE_VERSION = "0.1"
+
 # What kind of strategy we are running.
 # This tells we are going to use
 # NOTE: this setting has currently no effect

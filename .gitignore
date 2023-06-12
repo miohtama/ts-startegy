@@ -1,2 +1,4 @@
 .jukit
 __pycache__
+logs/
+cache/

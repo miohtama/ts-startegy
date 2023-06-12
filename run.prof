@@ -1,0 +1,16 @@
+         50197973 function calls (49738104 primitive calls) in 10.431 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1143 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      5/1    0.000    0.000   10.447   10.447 {built-in method builtins.exec}
+        1    0.000    0.000   10.447   10.447 ts_backtester.py:88(__init__)
+        1    0.092    0.092   10.447   10.447 ts_backtester.py:38(create_trading_universe)
+        1    0.000    0.000   10.342   10.342 trading_strategy_universe.py:1138(load_partial_data)
+        3    0.000    0.000    8.271    2.757 pair.py:540(__init__)
+        3    0.048    0.016    8.252    2.751 pair.py:591(build_index)
+        5    0.047    0.009    7.800    1.560 frame.py:1861(to_dict)
+   171876    0.061    0.000    7.748    0.000 frame.py:2009(<genexpr>)
+   171873    0.619    0.000    4.534    0.000 series.py:1864(to_dict)
+   171876    0.056    0.000    3.152    0.000 frame.py:1319(items)

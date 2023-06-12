@@ -11,11 +11,11 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.10.3,<3.11"
-trading-strategy = {version = "^0.17", extras = ["direct-feed"]}
+trading-strategy = {version = "^0.17.2", extras = ["direct-feed"]}
 ipython = "^8.13.2"
 matplotlib = "^3.7.1"
 pynvim = "^0.4.3"
-trade-executor = {git = "https://github.com/tradingstrategy-ai/trade-executor.git", rev = "master", extras = ["trade-executor", "qstrader", "quantstats"]}
+trade-executor = {git = "https://github.com/tradingstrategy-ai/trade-executor.git", rev = "master", extras = ["trade-executor", "qstrader", "quantstats", "web-server"]}
 apscheduler = "^3.10.1"
 python-logging-discord-handler = "^0.1.4"
 mplfinance = "^0.12.9b7"
